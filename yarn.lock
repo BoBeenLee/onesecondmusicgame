@@ -6453,15 +6453,20 @@
     "jscodeshift" "^0.13.1"
     "nullthrows" "^1.1.1"
 
+"react-native-device-info@^10.2.0":
+  "integrity" "sha512-7VycjFGaLKIZLDwCxSK5cWZdDOGqz3QxdGF57B/a4bW3gkrUFa5Gf0v7fUR9YL/VBJM0UwDiDH7pR9hkMQt+vw=="
+  "resolved" "https://registry.npmjs.org/react-native-device-info/-/react-native-device-info-10.2.0.tgz"
+  "version" "10.2.0"
+
 "react-native-gradle-plugin@^0.70.3":
   "integrity" "sha512-oOanj84fJEXUg9FoEAQomA8ISG+DVIrTZ3qF7m69VQUJyOGYyDZmPqKcjvRku4KXlEH6hWO9i4ACLzNBh8gC0A=="
   "resolved" "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.3.tgz"
   "version" "0.70.3"
 
-"react-native-navigation@^7.30.0-alpha.1":
-  "integrity" "sha512-G7Sq9d/sWHZ4oaJpuOTh5mAYo4ZPVoLv4JTD4ShgaB5MTyhO4FyF6i37SQE2F70QvGyu/PRJCT8+B3MmwfODlA=="
-  "resolved" "https://registry.npmjs.org/react-native-navigation/-/react-native-navigation-7.30.0-alpha.1.tgz"
-  "version" "7.30.0-alpha.1"
+"react-native-navigation@^7.29.0":
+  "integrity" "sha512-kDNaS54VBTlcUWfBmBRzk71Mau47mwktzoxGw3Pb2KPHCfwoEI5SyOAsx22PIgCzBXCK8vOxKrHCHYw/TnnQvQ=="
+  "resolved" "https://registry.npmjs.org/react-native-navigation/-/react-native-navigation-7.29.0.tgz"
+  "version" "7.29.0"
   dependencies:
     "hoist-non-react-statics" "3.x.x"
     "lodash" "4.17.x"
