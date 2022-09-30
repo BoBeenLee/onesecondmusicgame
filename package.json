@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@bam.tech/react-native-image-resizer": "^3.0.1",
+    "@types/react-native-snap-carousel": "^3.8.5",
     "react": "18.1.0",
     "react-native": "0.70.1",
     "react-native-code-push": "^7.0.5",
@@ -19,12 +20,17 @@
     "react-native-image-picker": "^4.10.0",
     "react-native-keyboard-aware-scroll-view": "git+https://github.com/APSL/react-native-keyboard-aware-scroll-view.git#v0.9.2",
     "react-native-linear-gradient": "^2.6.2",
-    "react-native-navigation": "^7.29.0",
+    "react-native-navigation": "7.30.0-alpha.1",
     "react-native-permissions": "^3.6.1",
     "react-native-progress": "^5.0.0",
     "react-native-rate": "^1.2.9",
     "react-native-reanimated": "^2.10.0",
-    "react-native-safe-area-context": "^4.4.1"
+    "react-native-safe-area-context": "^4.4.1",
+    "react-native-scroll-into-view": "^2.0.2",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-svg": "^13.2.0",
+    "react-native-tab-view": "^3.1.1",
+    "react-native-track-player": "^3.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
