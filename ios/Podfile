@@ -11,6 +11,7 @@ target 'onesecondmusicgame' do
   flags = get_default_flags()
 
   permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'GoogleSignIn', '~> 6.2.2'
   pod 'Permission-Notifications', :path => "#{permissions_path}/Notifications"
   pod 'rn-fetch-blob', :path => '../node_modules/rn-fetch-blob'
 
