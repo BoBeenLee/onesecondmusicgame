@@ -1411,6 +1411,11 @@
   "resolved" "https://registry.npmjs.org/@react-native-firebase/dynamic-links/-/dynamic-links-15.6.0.tgz"
   "version" "15.6.0"
 
+"@react-native-firebase/messaging@^15.6.0":
+  "integrity" "sha512-wm9LT6ndxbTenjIjPUJoF+qlo+rrKZCtF7D9vLLpUWY+w1QjCEhR2mlly5fxLrsOpkS2hgaB6NGEnxAmKurquQ=="
+  "resolved" "https://registry.npmjs.org/@react-native-firebase/messaging/-/messaging-15.6.0.tgz"
+  "version" "15.6.0"
+
 "@react-native-firebase/remote-config@^15.6.0":
   "integrity" "sha512-KkflaTL9Lp5o1afONkarGxJAZ1ySgDNgwmRM6VePFj6oaDdciYQ4D8zOxE1ENJhx2Ie+6b3z0w5JZN+IPgINTQ=="
   "resolved" "https://registry.npmjs.org/@react-native-firebase/remote-config/-/remote-config-15.6.0.tgz"

@@ -19,6 +19,7 @@
     "@react-native-firebase/auth": "^15.6.0",
     "@react-native-firebase/crashlytics": "^15.6.0",
     "@react-native-firebase/dynamic-links": "^15.6.0",
+    "@react-native-firebase/messaging": "^15.6.0",
     "@react-native-firebase/remote-config": "^15.6.0",
     "@react-native-google-signin/google-signin": "^8.0.0",
     "@types/react-native-snap-carousel": "^3.8.5",
