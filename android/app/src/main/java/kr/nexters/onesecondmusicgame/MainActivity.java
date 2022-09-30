@@ -1,4 +1,4 @@
-package com.onesecondmusicgame;
+package kr.nexters.onesecondmusicgame;
 
 import com.reactnativenavigation.NavigationActivity;
 import com.facebook.react.ReactActivityDelegate;

@@ -1,4 +1,4 @@
-package com.onesecondmusicgame;
+package kr.nexters.onesecondmusicgame;
 
 import android.app.Application;
 import android.content.Context;
@@ -10,7 +10,7 @@ import com.reactnativenavigation.react.NavigationReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.config.ReactFeatureFlags;
 import com.facebook.soloader.SoLoader;
-import com.onesecondmusicgame.newarchitecture.MainApplicationReactNativeHost;
+import kr.nexters.onesecondmusicgame.newarchitecture.MainApplicationReactNativeHost;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 import com.microsoft.codepush.react.CodePush;
@@ -80,7 +80,7 @@ public class MainApplication extends NavigationApplication {
          We use reflection here to pick up the class that initializes Flipper,
         since Flipper library is not available in release mode
         */
-        Class<?> aClass = Class.forName("com.onesecondmusicgame.ReactNativeFlipper");
+        Class<?> aClass = Class.forName("kr.nexters.onesecondmusicgame.ReactNativeFlipper");
         aClass
             .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
             .invoke(null, context, reactInstanceManager);
