@@ -21,7 +21,8 @@
     "react-native-linear-gradient": "^2.6.2",
     "react-native-navigation": "^7.29.0",
     "react-native-permissions": "^3.6.1",
-    "react-native-progress": "^5.0.0"
+    "react-native-progress": "^5.0.0",
+    "react-native-rate": "^1.2.9"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

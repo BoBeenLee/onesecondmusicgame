@@ -6612,6 +6612,11 @@
   dependencies:
     "prop-types" "^15.7.2"
 
+"react-native-rate@^1.2.9":
+  "integrity" "sha512-XBA5XdcWYtRyVuGFKJrsufFfaA9fSwOI/bzzDsfcovJQbYMJ0KIXMD3dFmsxAn0Kd3LDKwnHqnpjrmXOSF9rcQ=="
+  "resolved" "https://registry.npmjs.org/react-native-rate/-/react-native-rate-1.2.9.tgz"
+  "version" "1.2.9"
+
 "react-native-svg@*":
   "integrity" "sha512-bDvMeFReA3F9pVp0EhACPrEerRcITzTu9N2m2lAPinhIMVvwzGzVXyFsXI8fCMSoeOIh+77hKvukoCedh06tLw=="
   "resolved" "https://registry.npmjs.org/react-native-svg/-/react-native-svg-13.2.0.tgz"
