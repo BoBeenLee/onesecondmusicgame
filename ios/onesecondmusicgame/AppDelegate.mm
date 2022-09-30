@@ -18,6 +18,7 @@
 
 #import <CodePush/CodePush.h>
 #import <Firebase.h>
+#import <RNKakaoLogins.h>
 
 static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 
@@ -48,11 +49,17 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
   bridge.surfacePresenter = _bridgeAdapter.surfacePresenter;
 #endif
 
-  
-
-  
-
   return YES;
+}
+
+- (BOOL)application:(UIApplication *)app
+     openURL:(NSURL *)url
+     options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+ if([RNKakaoLogins isKakaoTalkLoginUrl:url]) {
+    return [RNKakaoLogins handleOpenUrl: url];
+ }
+
+ return NO;
 }
 
 /// This method controls whether the `concurrentRoot`feature of React18 is turned on or off.
