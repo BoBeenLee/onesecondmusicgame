@@ -8,6 +8,7 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "isolatedModules": true,
+    "useDefineForClassFields": true,
     /* Completeness */
     "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
     "typeRoots": ["./typings", "./node_modules/@types"]

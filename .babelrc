@@ -7,7 +7,7 @@
         "include": ["REACT_ENV"]
       }
     ],
-    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-decorators"],
     [
       "module-resolver",
       {
@@ -15,5 +15,8 @@
         "extensions": [".js", ".ios.js", ".android.js", ".ts", ".tsx"]
       }
     ]
-  ]
+  ],
+  "assumptions": {
+    "setPublicClassFields": false
+  }
 }
