@@ -1,0 +1,26 @@
+import axios, {AxiosRequestConfig, AxiosResponse} from 'axios';
+
+import env from 'src/configs/env';
+import {getRootStore} from 'src/stores/Store';
+
+export const soundCloudAPI = async <T>(config: AxiosRequestConfig) => {
+  const response: AxiosResponse<T> = await axios({
+    ...config,
+    params: {
+      ...config.params,
+      client_id: getRootStore().authStore.soundCloudCliendId,
+    },
+    baseURL: env.SOUNDCLOUD_API_URL,
+  });
+  return response.data;
+};
+
+export const makePlayStreamUri = (uri: string) => {
+  return `${uri}?client_id=${getRootStore().authStore.soundCloudCliendId}`;
+};
+
+export const makePlayStreamUriByTrackId = (trackId: string) => {
+  return `https://api.soundcloud.com/tracks/${trackId}/stream?client_id=${
+    getRootStore().authStore.soundCloudCliendId
+  }`;
+};
