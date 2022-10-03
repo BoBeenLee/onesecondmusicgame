@@ -12,5 +12,14 @@
     /* Completeness */
     "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
     "typeRoots": ["./typings", "./node_modules/@types"]
-  }
+  },
+  "include": ["./**/*.*"],
+  "exclude": [
+    "__generate__",
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js",
+    "web"
+  ]
 }
